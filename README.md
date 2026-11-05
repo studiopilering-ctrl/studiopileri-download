@@ -4,7 +4,7 @@ Applicazione GIS con strumenti CAD e Marine Engineering Studio. Questa repositor
 
 ## Download
 
-Aprire la [pagina delle release](https://github.com/studiopilering-ctrl/studiopileri-download/releases/latest) e scaricare **studiopileri-0.8.6-Setup-Windows.exe** per la prima installazione. Il download è pubblico e non richiede un account GitHub.
+Aprire la [pagina delle release](https://github.com/studiopilering-ctrl/studiopileri-download/releases/latest) e scaricare **studiopileri-0.8.7-Setup-Windows.exe** per la prima installazione. Il download è pubblico e non richiede un account GitHub.
 
 ## Installazione consigliata
 
@@ -20,7 +20,9 @@ I dati sono separati dal programma, in `%LOCALAPPDATA%\\studiopileri`. Il pulsan
 
 I progetti rimangono nell’archivio locale del singolo PC. Questa versione non comprende condivisione multiutente o sincronizzazione fra computer.
 
-## Versione 0.8.6
+## Versione 0.8.7
+
+Correzioni: immagini personali fino a 1 GB / 300 megapixel con elaborazione GDAL a blocchi; verificati file DEMO da 216,32 megapixel. Il layer SID principale è ora **Stato d’uso**, dal WMS ufficiale `https://sid.mit.gov.it/geoserver_live/wms` (layer `sid:stato_uso`). Demaniale è un’alternativa distinta; l’esportazione rispetta la rappresentazione scelta. Le immagini SID non certificano titoli o concessioni vigenti.
 
 Novità: misura visibile durante il disegno; coordinate dei vertici in TXT/CSV/JSON; rotazione del pontile e delle singole barche trascinando la maniglia sulla mappa; immagini personali come livelli georeferenziati (GeoTIFF oppure JPG/PNG con world file e CRS), con visibilità e opacità salvate.
 
